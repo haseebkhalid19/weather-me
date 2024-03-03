@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li a {
+    font-size: clamp(1rem, -0.0938rem + 3.5vw, 1.875rem);
+    font-family: weatherMe light sans, sans-serif;
+}
+
+#logo {
+    position: relative;
+}
+
+.cloud {
+    position: absolute;
+    left: -3rem;
+    top: -1rem;
+    width: clamp(1rem, -1.2768rem + 7.2857vw, 4.1875rem);
+}
+
+#logo a {
+    font-size: clamp(1rem, -3.1406rem + 13.25vw, 4.3125rem);
+    font-family: weatherMe sans, sans-serif;
+}
+
+#time {
+    font-size: clamp(1rem, 0.8661rem + 0.4286vw, 1.1875rem);
+    font-family: weatherMe semiBold sans ,sans-serif;
+    position: absolute;
+    top: 5rem;
+    right: -4rem;
+}
+
+.active {
+    font-family: weatherMe bold sans, sans-serif;
+    border-bottom: 4px solid #695D5D;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: weatherMe sans;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: weatherMe light sans;
+  src: url(./fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: weatherMe bold sans;
+  src: url(./fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: weatherMe semiBold sans;
+  src: url(./fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+:root {
+  font-family: weatherMe sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: #252323;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
