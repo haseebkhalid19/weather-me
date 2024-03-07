@@ -1,13 +1,13 @@
-import Header from './components/Header/Header'
-import './App.css'
+import { Header, Carousel } from "./components";
+import "./App.css";
 
 const App = () => {
-
   return (
     <>
       <Header />
+      <Carousel />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

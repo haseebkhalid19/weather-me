@@ -1,40 +1,126 @@
 ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 li a {
-    font-size: clamp(1rem, -0.0938rem + 3.5vw, 1.875rem);
-    font-family: weatherMe light sans, sans-serif;
+  font-size: clamp(1rem, -0.0938rem + 3.5vw, 1.875rem);
+  font-family: weatherMe light sans, sans-serif;
 }
 
 #logo {
-    position: relative;
+  position: relative;
 }
 
 .cloud {
-    position: absolute;
-    left: -3rem;
-    top: -1rem;
-    width: clamp(1rem, -1.2768rem + 7.2857vw, 4.1875rem);
+  position: absolute;
+  left: -3rem;
+  top: -1rem;
+  width: clamp(1rem, -1.2768rem + 7.2857vw, 4.1875rem);
 }
 
 #logo a {
-    font-size: clamp(1rem, -3.1406rem + 13.25vw, 4.3125rem);
-    font-family: weatherMe sans, sans-serif;
+  font-size: clamp(1rem, -3.1406rem + 13.25vw, 4.3125rem);
+  font-family: weatherMe sans, sans-serif;
 }
 
 #time {
-    font-size: clamp(1rem, 0.8661rem + 0.4286vw, 1.1875rem);
-    font-family: weatherMe semiBold sans ,sans-serif;
-    position: absolute;
-    top: 5rem;
-    right: -4rem;
+  font-size: clamp(1rem, 0.8661rem + 0.4286vw, 1.1875rem);
+  font-family: weatherMe semiBold sans, sans-serif;
+  position: absolute;
+  top: 5rem;
+  right: -4rem;
 }
 
 .active {
-    font-family: weatherMe bold sans, sans-serif;
-    border-bottom: 4px solid #695D5D;
+  font-family: weatherMe bold sans, sans-serif;
+  border-bottom: 4px solid #695d5d;
+}
+
+.centigrade {
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  left: 75px;
+  top: 154px;
+  font-family: weatherMe light sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.fahrenheit {
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  left: 219px;
+  top: 157px;
+  font-family: weatherMe light sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.switch-container {
+  position: absolute;
+  width: 92px;
+  height: 30px;
+  left: 118px;
+  top: 171px;
+  background: linear-gradient(90deg, #33e017 0%, rgba(149, 241, 134, 0) 100%);
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.switch {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 2px;
+  top: 2px;
+  background: #181515;
+  border-radius: 50%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form svg {
+  position: relative;
+  left: 70px;
+  top: 100px;
+  z-index: 1;
+}
+
+.search {
+  position: relative;
+  width: 711px;
+  height: 66px;
+  top: 100px;
+  background: #d9d9d9;
+  border-radius: 25px;
+}
+
+::placeholder {
+  position: absolute;
+  width: 552px;
+  height: 35px;
+  left: 80px;
+  top: 10px;
+
+  font-family: weatherMe light sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #524e4e;
 }

@@ -1,0 +1,227 @@
+.slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide {
+  position: relative;
+  top: 150px;
+  width: 817px;
+  height: 425px;
+
+  background: linear-gradient(112.67deg, #ad36cb 32.23%, #333333 67.37%);
+  box-shadow: 0px 4px 4px rgba(253, 245, 245, 0.25),
+    0px 4px 4px rgba(255, 250, 250, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature {
+  font-family: weatherMe sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 105px;
+
+  display: flex;
+  align-items: center;
+
+  color: #f2f1f1;
+}
+
+.temperature svg {
+  margin: auto 15px;
+}
+
+.location {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+
+  font-family: weatherMe light sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+
+.date {
+  position: absolute;
+  width: 195px;
+  height: 21px;
+  left: 30px;
+  top: 250px;
+
+  font-family: weatherMe sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+/* 
+.others {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 10px;
+} */
+
+.humidity {
+  left: 100px;
+  top: 350px;
+  position: absolute;
+  font-family: weatherMe sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.visiblity {
+  left: 250px;
+  top: 350px;
+  position: absolute;
+  font-family: weatherMe sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.air-pressure {
+  left: 400px;
+  top: 350px;
+  position: absolute;
+  font-family: weatherMe sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.wind {
+  left: 650px;
+  top: 350px;
+  position: absolute;
+  font-family: weatherMe sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.next {
+  position: relative;
+  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.report {
+  /* position: absolute; */
+  margin-top: 20px;
+  width: 121px;
+  height: 130px;
+  /* top: 200px; */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background: linear-gradient(180deg, #b32dd5 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 25px;
+}
+
+/* .one {
+  left: 41px;
+}
+
+.two {
+  left: 300px;
+}
+
+.three {
+  left: 600px;
+}
+
+.four {
+  left: 800px;
+}
+
+.five {
+  left: 1000px;
+}
+
+.six {
+  left: 1200px;
+}
+
+.seven {
+  left: 1500px;
+} */
+
+.one div{
+  z-index: 2;
+}
+
+.two div{
+  z-index: 2;
+}
+
+.three div{
+  z-index: 2;
+}
+
+.four div{
+  z-index: 2;
+}
+
+.five div{
+  z-index: 2;
+}
+
+.six div{
+  z-index: 2;
+}
+
+.seven div{
+  z-index: 2;
+}
+
+.next-inner {
+  position: absolute;
+  width: 121px;
+  height: 72px;
+  bottom: 0;
+  z-index: 1 !important;
+
+  background: linear-gradient(105.4deg, #373333 4.8%, rgba(55, 51, 51, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(4.5px);
+  border-radius: 25px;
+}
